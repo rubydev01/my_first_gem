@@ -206,7 +206,7 @@ At this point we have the gem locally. You have some options:
     Add this line to your application's Gemfile:
 
     ```ruby
-    gem 'my_first_gem', path: <repository_path>
+    gem 'my_first_gem', git: <repository_path>
     ```
 
 3. Works locally with your gem while you decide what you are going to do. If you want to use your gem in other application:
